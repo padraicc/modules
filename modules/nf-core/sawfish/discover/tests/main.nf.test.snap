@@ -7,7 +7,7 @@
                         {
                             "id": "test"
                         },
-                        "versions.yml:md5,dd9f8fdb13df01e93925df4eff49a6fc"
+                        "versions.yml:md5,fe237e137939d0be5837504710454b3b"
                     ]
                 ],
                 "1": [
@@ -82,6 +82,41 @@
                         "expected.copy.number.bed:md5,58448ae7fc3225ff7a7838ffaed3cfa6"
                     ]
                 ],
+                "18": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        [
+                            "assembly.regions.bed:md5,31c7df4e93b2e075d75f195d84ad7730",
+                            "candidate.sv.bcf:md5,95cb9b90091d097cd8ef50c7c5573442",
+                            "candidate.sv.bcf.csi:md5,4fe64addde9dfff20332c4bd8a10c008",
+                            "contig.alignment.bam:md5,181e94e83c5a12dfe14d76208f1dae3d",
+                            "contig.alignment.bam.csi:md5,8ba1cf883b6c208fa9cfe6631269a464",
+                            "copynum.bedgraph:md5,7c06d406469f75bde46154fc8883fc40",
+                            "copynum.mpack:md5,8ff3387d2c41beae5f94ec85fbcdf824",
+                            "debug.breakpoint_clusters.bed:md5,c94f6a93ddc26a9ede54ea97c59d3546",
+                            "debug.cluster.refinement.txt:md5,b14a1738e6987c819924b4f63fe58596",
+                            "depth.mpack:md5,1051448c7bf0072906608efa6fa4632b",
+                            "discover.settings.json:md5,cfa1e550059c6b3211bd27c3caeebf0e",
+                            "expected.copy.number.bed:md5,58448ae7fc3225ff7a7838ffaed3cfa6",
+                            "genome.gclevels.mpack:md5,2f2bd6c53802267be012b610b8e2cefc",
+                            "max.depth.bed:md5,5e3df6a11d1cb214ce75334af6b20b7a",
+                            "run.stats.json:md5,db8e456253cc8b80257223f0e0464f22",
+                            "sample.gcbias.mpack:md5,e1a28c900c24b16e5c34ffd52df7a409",
+                            "sawfish.log:md5,50b046cd550508b1a438eb088a15502a"
+                        ]
+                    ]
+                ],
+                "19": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "NA03697B2_downsampled.pbmm2.repeats.bam:md5,1a8e2d173b376e1a860d02b8d44a7d68",
+                        "NA03697B2_downsampled.pbmm2.repeats.bam.bai:md5,521f6e9f51283a48abad6c8ea27cdecc"
+                    ]
+                ],
                 "2": [
                     [
                         {
@@ -152,6 +187,15 @@
                             "id": "test"
                         },
                         "assembly.regions.bed:md5,31c7df4e93b2e075d75f195d84ad7730"
+                    ]
+                ],
+                "bam": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "NA03697B2_downsampled.pbmm2.repeats.bam:md5,1a8e2d173b376e1a860d02b8d44a7d68",
+                        "NA03697B2_downsampled.pbmm2.repeats.bam.bai:md5,521f6e9f51283a48abad6c8ea27cdecc"
                     ]
                 ],
                 "candidate_sv_bcf": [
@@ -226,6 +270,32 @@
                         "depth.mpack:md5,1051448c7bf0072906608efa6fa4632b"
                     ]
                 ],
+                "discover_dir": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        [
+                            "assembly.regions.bed:md5,31c7df4e93b2e075d75f195d84ad7730",
+                            "candidate.sv.bcf:md5,95cb9b90091d097cd8ef50c7c5573442",
+                            "candidate.sv.bcf.csi:md5,4fe64addde9dfff20332c4bd8a10c008",
+                            "contig.alignment.bam:md5,181e94e83c5a12dfe14d76208f1dae3d",
+                            "contig.alignment.bam.csi:md5,8ba1cf883b6c208fa9cfe6631269a464",
+                            "copynum.bedgraph:md5,7c06d406469f75bde46154fc8883fc40",
+                            "copynum.mpack:md5,8ff3387d2c41beae5f94ec85fbcdf824",
+                            "debug.breakpoint_clusters.bed:md5,c94f6a93ddc26a9ede54ea97c59d3546",
+                            "debug.cluster.refinement.txt:md5,b14a1738e6987c819924b4f63fe58596",
+                            "depth.mpack:md5,1051448c7bf0072906608efa6fa4632b",
+                            "discover.settings.json:md5,cfa1e550059c6b3211bd27c3caeebf0e",
+                            "expected.copy.number.bed:md5,58448ae7fc3225ff7a7838ffaed3cfa6",
+                            "genome.gclevels.mpack:md5,2f2bd6c53802267be012b610b8e2cefc",
+                            "max.depth.bed:md5,5e3df6a11d1cb214ce75334af6b20b7a",
+                            "run.stats.json:md5,db8e456253cc8b80257223f0e0464f22",
+                            "sample.gcbias.mpack:md5,e1a28c900c24b16e5c34ffd52df7a409",
+                            "sawfish.log:md5,50b046cd550508b1a438eb088a15502a"
+                        ]
+                    ]
+                ],
                 "discover_settings": [
                     [
                         {
@@ -287,7 +357,7 @@
                         {
                             "id": "test"
                         },
-                        "versions.yml:md5,dd9f8fdb13df01e93925df4eff49a6fc"
+                        "versions.yml:md5,fe237e137939d0be5837504710454b3b"
                     ]
                 ]
             }
@@ -296,7 +366,7 @@
             "nf-test": "0.9.2",
             "nextflow": "25.04.6"
         },
-        "timestamp": "2025-09-03T13:19:24.563803713"
+        "timestamp": "2025-09-11T11:21:37.868986635"
     },
     "sawfish_discover_bam": {
         "content": [
@@ -305,7 +375,7 @@
                     {
                         "id": "test"
                     },
-                    "versions.yml:md5,dd9f8fdb13df01e93925df4eff49a6fc"
+                    "versions.yml:md5,fe237e137939d0be5837504710454b3b"
                 ]
             ],
             "candidate.sv.bcf",
@@ -314,7 +384,7 @@
                     {
                         "id": "test"
                     },
-                    "candidate.sv.bcf.csi:md5,3e554cbc9cc1d8f66365ae781986987c"
+                    "candidate.sv.bcf.csi:md5,d0514753b17a703dde6d7853755c52ab"
                 ]
             ],
             [
@@ -330,7 +400,7 @@
                     {
                         "id": "test"
                     },
-                    "contig.alignment.bam:md5,ec06f7df76bb208a9eca7ad17f04468d"
+                    "contig.alignment.bam:md5,b803e1b487a382c63a096369a4a575f5"
                 ]
             ],
             [
@@ -338,7 +408,7 @@
                     {
                         "id": "test"
                     },
-                    "contig.alignment.bam.csi:md5,ff1cf4de272d096dae07df085eb05927"
+                    "contig.alignment.bam.csi:md5,60841fe550d1a760d89c6fd163513721"
                 ]
             ],
             [
@@ -402,6 +472,6 @@
             "nf-test": "0.9.2",
             "nextflow": "25.04.6"
         },
-        "timestamp": "2025-09-05T15:55:51.669120997"
+        "timestamp": "2025-09-11T11:21:29.913511174"
     }
 }
